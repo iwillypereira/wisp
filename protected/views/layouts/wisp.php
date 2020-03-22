@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Dreamkit - Responsive Bootstrap Admin Template</title>
+    <title>WispSoft <?=$this->pageTitle?></title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.png">

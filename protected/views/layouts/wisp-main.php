@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Dreamkit - Responsive Bootstrap Admin Template</title>
+    <title>WispSoft <?=$this->pageTitle?></title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.png">
@@ -32,7 +32,8 @@
         <div class="ecaps-sidemenu-area">
             <!-- Desktop Logo -->
             <div class="ecaps-logo">
-                <a href="index.html"><img class="desktop-logo" src="img/core-img/logo.png" alt="Desktop Logo"> <img class="small-logo" src="img/core-img/small-logo.png" alt="Mobile Logo"></a>
+                <a href="index.html"><img class="desktop-logo" src="img/core-img/logo.png" alt="Desktop Logo"> <img
+                        class="small-logo" src="img/core-img/small-logo.png" alt="Mobile Logo"></a>
             </div>
 
             <!-- Side Nav -->
@@ -42,8 +43,10 @@
                     <!-- Sidebar Menu -->
                     <nav>
                         <ul class="sidebar-menu" data-widget="tree">
-                            <li><a href="index.html"><i class="zmdi material-icons">dashboard</i> <span>Inicio</span></a></li>
-                            <li class="treeview "><a href="index.html"><i class="zmdi material-icons">dashboard</i> <span>Clientes</span> <i class="zmdi material-icons">  </i></a>
+                            <li><a href="index.html"><i class="zmdi material-icons">dashboard</i>
+                                    <span>Inicio</span></a></li>
+                            <li class="treeview "><a href="index.html"><i class="zmdi material-icons">dashboard</i>
+                                    <span>Clientes</span> <i class="zmdi material-icons"> </i></a>
                                 <ul class="treeview-menu">
                                     <li class="active"><a href="blank.html">Blank Page</a></li>
                                     <li><a href="gallery.html">Gallery</a></li>
@@ -56,7 +59,8 @@
                                 </ul>
                             </li>
                             <li class="treeview">
-                                <a href="javascript:void(0)"><i class="zmdi zmdi-file-text"></i><span>Pages</span> <i class="fa fa-angle-up zmdi material-icons"></i></a>
+                                <a href="javascript:void(0)"><i class="zmdi zmdi-file-text"></i><span>Pages</span> <i
+                                        class="fa fa-angle-up zmdi material-icons"></i></a>
                                 <ul class="treeview-menu">
                                     <li class="active"><a href="blank.html">Blank Page</a></li>
                                     <li><a href="gallery.html">Gallery</a></li>
@@ -103,7 +107,8 @@
                     <ul class="left-side-navbar d-flex align-items-center">
                         <!-- Left Side Nav -->
                         <li class="hide-phone app-search">
-                            <form role="search" class=""><input type="text" placeholder="Search..." class="form-control">
+                            <form role="search" class=""><input type="text" placeholder="Search..."
+                                    class="form-control">
                                 <button type="submit" class="mr-0"><i class="fa fa-search"></i></button></form>
                         </li>
                     </ul>
@@ -118,17 +123,20 @@
                     <!-- Top Bar Nav -->
                     <ul class="right-side-content d-flex align-items-center">
                         <li class="nav-item dropdown dropdown-animate">
-                            <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-email"></i></a>
+                            <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-email"></i></a>
                             <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg dropdown-menu-arrow p-0">
                                 <div class="py-3 px-3">
                                     <h5 class="heading h6 mb-0">7 New Messages</h5>
                                 </div>
                                 <div class="list-group list-group-flush" id="messageBox">
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
                                             <div><img class="chat-img-2" src="img/member-img/1.jpg" alt=""></div>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Alex Michael <small class="float-right text-dark">2 hrs ago</small></div>
+                                                <div class="font-14 mb-0">Alex Michael <small
+                                                        class="float-right text-dark">2 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Projtect Done 856
                                                 </p>
@@ -137,10 +145,12 @@
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
                                             <div><img class="chat-img-2" src="img/member-img/2.jpg" alt=""></div>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Anila Stora <small class="float-right text-dark">3
+                                                <div class="font-14 mb-0">Anila Stora <small
+                                                        class="float-right text-dark">3
                                                         hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Lorem ipsum dolor sit amet.
@@ -150,10 +160,12 @@
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
                                             <div><img class="chat-img-2" src="img/member-img/3.jpg" alt=""></div>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Lima Sara <small class="float-right text-dark">4
+                                                <div class="font-14 mb-0">Lima Sara <small
+                                                        class="float-right text-dark">4
                                                         hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Projtect Done 856
@@ -163,10 +175,12 @@
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
                                             <div><img class="chat-img-2" src="img/member-img/4.jpg" alt=""></div>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Alex Michael <small class="float-right text-dark">5 hrs ago</small></div>
+                                                <div class="font-14 mb-0">Alex Michael <small
+                                                        class="float-right text-dark">5 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Lorem ipsum dolor sit amet.
                                                 </p>
@@ -175,10 +189,12 @@
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
                                             <div><img class="chat-img-2" src="img/member-img/5.jpg" alt=""></div>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Jhon Michael <small class="float-right text-dark">6 hrs ago</small></div>
+                                                <div class="font-14 mb-0">Jhon Michael <small
+                                                        class="float-right text-dark">6 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Projtect Done 652
                                                 </p>
@@ -187,10 +203,12 @@
                                     </a>
 
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
                                             <div><img class="chat-img-2" src="img/member-img/6.jpg" alt=""></div>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Alex Michael <small class="float-right text-dark">2 hrs ago</small></div>
+                                                <div class="font-14 mb-0">Alex Michael <small
+                                                        class="float-right text-dark">2 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Projtect Done 856
                                                 </p>
@@ -205,7 +223,8 @@
                         </li>
 
                         <li class="nav-item dropdown dropdown-animate">
-                            <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-notifications-none"></i>
+                            <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-notifications-none"></i>
                                 <span class="active-status"></span></a>
                             <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg dropdown-menu-arrow p-0">
                                 <div class="py-3 px-3">
@@ -213,10 +232,13 @@
                                 </div>
                                 <div class="list-group list-group-flush" id="notificationsBox">
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
-                                            <div class="heading-avatar bg-primary text-white rounded-circle"><i class="zmdi zmdi-flower"></i></div>
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
+                                            <div class="heading-avatar bg-primary text-white rounded-circle"><i
+                                                    class="zmdi zmdi-flower"></i></div>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0 font-weight-bold">New project done <small class="float-right text-dark">2 hrs ago</small></div>
+                                                <div class="font-14 mb-0 font-weight-bold">New project done <small
+                                                        class="float-right text-dark">2 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Some quick example text to build on the card title.
                                                 </p>
@@ -226,10 +248,12 @@
 
                                     <span class="header-notification">New Hot</span>
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="3 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="3 hrs ago">
                                             <span class="heading-avatar bg-warning text-white rounded-circle">SW</span>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0 font-weight-bold">Sandra Wayne <small class="float-right text-dark">3 hrs ago</small></div>
+                                                <div class="font-14 mb-0 font-weight-bold">Sandra Wayne <small
+                                                        class="float-right text-dark">3 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Some quick example text to build on the card title.
                                                 </p>
@@ -237,10 +261,12 @@
                                         </div>
                                     </a>
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="5 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="5 hrs ago">
                                             <span class="heading-avatar bg-info text-white rounded-circle">JM</span>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Jason Miller <small class="float-right text-dark">5 hrs ago</small></div>
+                                                <div class="font-14 mb-0">Jason Miller <small
+                                                        class="float-right text-dark">5 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Some quick example text to build on the card title.
                                                 </p>
@@ -248,10 +274,12 @@
                                         </div>
                                     </a>
                                     <a href="#" class="list-group-item list-group-item-action">
-                                        <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
+                                        <div class="d-flex align-items-center" data-toggle="tooltip"
+                                            data-placement="right" data-title="2 hrs ago">
                                             <span class="heading-avatar bg-dark text-white rounded-circle">MJ</span>
                                             <div class="flex-fill ml-3">
-                                                <div class="font-14 mb-0">Mike Thomson <small class="float-right text-dark">2 hrs ago</small></div>
+                                                <div class="font-14 mb-0">Mike Thomson <small
+                                                        class="float-right text-dark">2 hrs ago</small></div>
                                                 <p class="font-12 mb-0">
                                                     Some quick example text to build on the card title.
                                                 </p>
@@ -261,14 +289,28 @@
 
 
                         <li class="nav-item dropdown">
-                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="chat-img-2" src="img/member-img/1.jpg" alt=""></button>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><img class="chat-img-2"
+                                    src="img/member-img/1.jpg" alt=""></button>
                             <div class="dropdown-menu profile-info dropdown-menu-right">
                                 <!-- User Profile Area -->
                                 <div class="user-profile-area">
-                                    <a href="<?= Yii::app()->createUrl('site/perfil') ?>" class="dropdown-item" style="font-size:15px;"><i class="zmdi material-icons profile-icon" style="font-size:15px;"> assignment_ind</i> <span style="font-size:15px;">Perfil</span></a>
-                                    <a href="<?= Yii::app()->createUrl('site/mensajes') ?>" class="dropdown-item" style="font-size:15px;"><i class="zmdi material-icons profile-icon" style="font-size:15px;"> inbox</i> <span style="font-size:15px;">Mensajes</span></a>
-                                    <a href="<?= Yii::app()->createUrl('site/configuracion') ?>" class="dropdown-item" style="font-size:15px;"><i class="zmdi material-icons profile-icon" style="font-size:15px;"> widgets</i> <span style="font-size:15px;">Configuración</span></a>
-                                    <a href="<?= Yii::app()->createUrl('site/logout') ?>" class="dropdown-item" style="font-size:15px;"><i class="zmdi material-icons profile-icon" style="font-size:15px;"> exit_to_app</i> <span style="font-size:15px;">Salir</span></a>
+                                    <a href="<?= Yii::app()->createUrl('site/perfil') ?>" class="dropdown-item"
+                                        style="font-size:15px;"><i class="zmdi material-icons profile-icon"
+                                            style="font-size:15px;"> assignment_ind</i> <span
+                                            style="font-size:15px;">Perfil</span></a>
+                                    <a href="<?= Yii::app()->createUrl('site/mensajes') ?>" class="dropdown-item"
+                                        style="font-size:15px;"><i class="zmdi material-icons profile-icon"
+                                            style="font-size:15px;"> inbox</i> <span
+                                            style="font-size:15px;">Mensajes</span></a>
+                                    <a href="<?= Yii::app()->createUrl('site/configuracion') ?>" class="dropdown-item"
+                                        style="font-size:15px;"><i class="zmdi material-icons profile-icon"
+                                            style="font-size:15px;"> widgets</i> <span
+                                            style="font-size:15px;">Configuración</span></a>
+                                    <a href="<?= Yii::app()->createUrl('site/logout') ?>" class="dropdown-item"
+                                        style="font-size:15px;"><i class="zmdi material-icons profile-icon"
+                                            style="font-size:15px;"> exit_to_app</i> <span
+                                            style="font-size:15px;">Salir</span></a>
 
                                 </div>
                             </div>
@@ -276,14 +318,9 @@
                     </ul>
                 </div>
             </header>
-
-            <!-- Main Content Area -->
             <div class="main-content">
                 <div class="container-fluid">
-                    <div class="height-800">
-
-                        <?php echo $content; ?>
-                    </div>
+                    <?php echo $content; ?>
                 </div>
 
                 <!-- Footer Area -->
@@ -291,11 +328,13 @@
                     <div class="row">
                         <div class="col-12">
                             <!-- Footer Area -->
-                            <footer class="footer-area d-sm-flex justify-content-center align-items-center justify-content-between">
+                            <footer
+                                class="footer-area d-sm-flex justify-content-center align-items-center justify-content-between">
                                 <!-- Copywrite Text -->
                                 <div class="copywrite-text">
-                                    <p class="font-13 font-weight-bold">Created by @<a href="#">Theme-zome.</a> All rights
-                                        reserved</p>
+                                    <p class="font-13 font-weight-bold">Created by @<a href="#">Theme-zome.</a> All
+                                        rights reserved
+                                    </p>
                                 </div>
                                 <div class="fotter-icon text-center">
                                     <p class="mb-0 font-13 font-weight-bold">2020 © Dreamkit. </p>
@@ -307,6 +346,8 @@
             </div>
         </div>
     </div>
+    
+
 
     <!-- Must needed plugins to the run this Template -->
     <script src="/js/jquery.min.js"></script>
@@ -318,40 +359,3 @@
     <script src="/js/default-assets/active.js"></script>
 
 </body>
-
-</html>ing-avatar bg-primary text-white rounded-circle">RN</span>
-<div class="flex-fill ml-3">
-    <div class="font-14 mb-0">Richard Nixon <small class="float-right text-dark">3 hrs ago</small></div>
-    <p class="font-12 mb-0">
-        Some quick example text to build on the card title.
-    </p>
-</div>
-</div>
-</a>
-</div>
-<div class="py-3 text-center">
-    <a href="#" class="link link-sm text-primary font-13">View all</a>
-</div>
-</div>
-</li>
-
-<li class="nav-item dropdown">
-    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="chat-img-2" src="img/member-img/1.jpg" alt=""></button>
-    <div class="dropdown-menu profile-info dropdown-menu-right">
-        <!-- User Profile Area -->
-        <div class="user-profile-area">
-            <a href="#" class="dropdown-item"><i class="zmdi zmdi-account profile-icon" aria-hidden="true"></i> My profile</a>
-            <a href="#" class="dropdown-item"><i class="zmdi zmdi-email-open profile-icon" aria-hidden="true"></i> Messages</a>
-            <a href="#" class="dropdown-item"><i class="zmdi zmdi-brightness-7 profile-icon" aria-hidden="true"></i> Account settings</a>
-            <a href="#" class="dropdown-item"><i class="zmdi zmdi-portable-wifi profile-icon" aria-hidden="true"></i> Sign-out</a>
-        </div>
-    </div>
-</li>
-</ul>
-</div>
-</header>
-
-<!-- Main Content Area -->
-<div class="main-content">
-    <div class="container-fluid">
-        <div class="height-800">
